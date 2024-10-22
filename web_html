@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Citește povestea Privighetoarea de Hans Christian Andersen și ascultă muzica dedicată acesteia.">
+    <meta name="keywords" content="Privighetoarea, Hans Christian Andersen, poveste, literatură, carte audio, muzică">
+    <title>Privighetoarea - Hans Christian Andersen</title>
+    <!-- SEO friendly link -->
+    <link rel="canonical" href="https://www.exemplu.com/privighetoarea-hans-christian-andersen">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Alege limba</h1>
+        <div class="header-text">
+            <p>Primul meu design de pagină web</p>
+            <p>Contact: <a href="mailto:ioanatrifoi610@gmail.com">ioanatrifoi610@gmail.com</a></p>
+        </div>
+        <div class="language-selection">
+            <a href="?lang=ro">Română</a> | <a href="?lang=en">English</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="titlu">
+            <h1 class="rainbow-title">Privighetoarea</h1>
+            <h2>Citește povestea</h2>
+            <p><a href="#poveste">Citește povestea completă</a></p>
+        </section>
+
+        <section class="muzica">
+            <h2>Ascultă muzică inspirată din poveste</h2>
+            <audio controls>
+                <source src="audio/privighetoarea.mp3" type="audio/mpeg">
+                Browserul tău nu suportă audio.
+            </audio>
+        </section>
+
+        <section class="poze">
+            <h3>Ilustrații din poveste</h3>
+            <div class="galerie">
+                <img src="images/poza1.jpg" alt="Ilustrație din Privighetoarea">
+                <img src="images/poza2.jpg" alt="Ilustrație 2 din Privighetoarea">
+            </div>
+        </section>
+
+        <article id="poveste">
+            <h2>Privighetoarea - Poveste completă</h2>
+            <p>Într-o pădure din China, trăia o privighetoare de o frumusețe rară, a cărei voce aducea pace în inima celor care o ascultau...</p>
+            <!-- Continuarea textului povestii -->
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Povestiri clasice - Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
